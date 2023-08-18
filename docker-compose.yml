@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   mvdsv:
-    image: niclaslindstedt/nquakesv
+    image: frehall/nquakesv
     restart: always
     environment:
       - HOSTNAME=${KTX_HOSTNAME}
